@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+@-moz-viewport {width: device-width;scale: 1;}
+@-ms-viewport {width: device-width;scale: 1;}
+@-o-viewport {width: device-width;scale: 1;}
+@-webkit-viewport {width: device-width;scale: 1;}
+@viewport {width: device-width;scale: 1;}
+
+	
+html {
+	font: normal 100%/1.4;
+	font-family:Tahoma, Geneva, sans-serif;
+	background-color:#999;
+	background-image:url(me.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}	
+	
+article {
+	background-color: #FFF;
+	padding: 0.8em;	
+	float: left;
+	position:inherit;
+	width: 180px;
+	margin: 1.5em;
+}
+
+
+.logo {
+	width: 40%;		
+}
+
+h1 {
+	font-size:1em;	
+}	
+
+p {
+	font-size:0.8em;	
+}
+
+.fb {
+	width: 40px;	
+}
+
+.twitter {
+	width: 40px;	
+}
+
+.linkedin {
+	width: 40px;	
+}
+.social {
+	display:inline-block;	
+}
+
+@media only screen and (min-width: 80em) {
+
+article {
+	width:250px;
+	margin: 4em;
+	padding:2em;	
+}
+
+h1 {
+	font-size:2em;	
+}	
+
+p {
+	font-size:1.3em;	
+}
+
+.fb {
+	width: 40px;	
+}
+
+.twitter {
+	width: 40px;	
+}
+
+.linkedin {
+	width: 40px;	
+}
+	
+}
