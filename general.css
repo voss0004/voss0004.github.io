@@ -22,13 +22,25 @@ article {
 	padding: 0.8em;	
 	float: left;
 	position:inherit;
-	width: 180px;
+	width: 30%;
 	margin: 1.5em;
 }
 
 
 .logo {
-	width: 40%;		
+	width: 30%;		
+}
+
+nav ul {
+	margin-bottom: 1em;
+	list-style-type: none;
+	padding: 0 0;	
+}
+
+nav li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#000;
+	display:inline-block;	
 }
 
 h1 {
@@ -38,6 +50,10 @@ h1 {
 p {
 	font-size:0.8em;	
 }
+
+.screen {
+	width: 300px;
+}	
 
 .fb {
 	width: 40px;	
@@ -50,6 +66,7 @@ p {
 .linkedin {
 	width: 40px;	
 }
+
 .social {
 	display:inline-block;	
 }
